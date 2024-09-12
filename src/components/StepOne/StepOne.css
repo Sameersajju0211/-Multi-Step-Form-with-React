@@ -1,0 +1,99 @@
+/* Overall form container styles */
+.step-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f7f9fc; 
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif; 
+   
+  }
+ .main-heading {
+    color: #4CAF50;
+ }
+ 
+
+  label {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: 500;
+  }
+  
+
+  .required {
+    color: red;
+  }
+  
+ 
+  input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    font-size: 1em;
+    font-family: inherit;
+    background-color: #fff;
+  }
+  
+
+  input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 5px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .step-one {
+      padding: 15px;
+      max-width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .step-one {
+      padding: 10px;
+    }
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e8f0f2; 
+  }
+  
+  /* For the responsive handling */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  
